@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <table border="1">
+        <!-- tbody: tag que cria o corpo da tabela -->
+        <!-- Inicio linha -->
+        <tbody>
+            <!-- tr: tag que cria a linha da tabela -->
+            <!-- ínicio linha -->
+            <tr>
+                 <!-- th: cabeçalho da tabela -->
+                <th>
+                    Marca
+                </th>
+                <!-- fim do cabeçalho -->
+                <th>
+                    Modelo
+                </th>
+                <th>
+                    Ano
+                </th>
+                <!-- </tr> Fim linha -->
+                <!-- td: cria a céluna -->
+            </tr> <!-- <tr> inicio da coluna -->
+            <!-- th: cabeçalho da tabela -->
+            <th rowspan="2">Toyota</th>  <!-- rowspan: mescla a célula na vertical -->
+            <td>Corolla</td>
+            <td>2020</td>
+            </tr>
+            <tr>
+                <td>Campy</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <!-- th: cabeçalho da tabela -->
+                <th rowspan="3">Honda</th>
+                <td>Civic</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>Fit</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                 <!-- th: cria uma célula do cabeçalho -->
+                <th>Mitsubishi</th>
+                <td>Lancer</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <!-- th: cria uma célula do cabeçalho -->
+                <th colspan="3">última atualização: 10/09/2024</th>
+            </tr>
+        </tbody>
+        <!-- tfoot: é o atributo que cria um rodapé na tabela -->
+        <tfoot>
+            Meu rodapé
+            <tr>
+                <!-- colspan: mescla  a célula na horizontal -->
+                <td colspan="3">Meu rodapé</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+
+</html>
