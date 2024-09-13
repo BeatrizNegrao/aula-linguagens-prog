@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,25 +9,32 @@
 </head>
 
 <body>
+    <!-- h1: Tag de nível 1 para títulos -->
     <h1>Formulário de contato</h1>
+    <!-- form: Tag para criar formulário -->
     <form action="/processar" method="post">
-        <!-- Usando labe e selet -->
+        <!-- Início Label e Selet -->
+        <!-- A tag <label>: em HTML é usada para definir rótulos para elementos de formulário -->
         <label for="Carros">Escolha um carro:</label>
+        <!-- A tag <select>: em HTML é usada para criar uma lista suspensa, permitindo que o usuário escolha um conjunto de opções pré-definidas. -->
         <select name="Carros" id="Carros">
             <option value="Toyota">Toyota</option>
             <option value="Honda">Honda</option>
             <option value="Mitsubishi">Mitsubishi</option>
         </select>
-        <!-- Fim label e select -->
+        <!-- Fim Label e Select -->
         <br>
-        <!-- inicio Label e Textarea -->
+        <!-- início Label e Textarea -->
         <label for="Comentários">Deixe o seu comentário!</label>
         <br>
+        <!-- A tag <textarea>: em HTML é usada para criar uma área de texto multilinha onde os usuários podem inserir texto livremente. -->
         <textarea name="Comentários" id="Comentários" cols="50" rows="5"></textarea>
         <!-- Fim Label e Textarea -->
         <br>
-        <!-- Botão: enviar form -->
+        <!-- br: Tag que produz uma quebra de linha em um texto  -->
         <br>
+        <!-- O input do tipo “submit” define um botão de envio -->
+        <!-- Início do Botão: enviar form -->
         <input type="submit" value="Enviar">
         <!--Fim do botão: enviar form  -->
     </form>
