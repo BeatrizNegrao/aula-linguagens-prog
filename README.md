@@ -1,3 +1,3 @@
 # aula-linguagens-prog
 
-Repositório para armazenar todas as atividades de linguagens feitas em sala de aula 
+Repositório para armazenar todas as atividades feitas em sala de aula 
