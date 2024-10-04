@@ -6,23 +6,23 @@ body, html {
 }
 
 .aba_superior {
-    height: 5%;
-    width: 30%;
-    background-color: #656868;
-    color: black;
+    height: 4.5%;
+    width: 20%;
+    background-color: gray;
+    color: white;
     display: flex;
     position: fixed;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    padding-left: 35%;
-    padding-right: 35%;
+    padding-left: 40%;
+    padding-right: 40%;
 
 }
 
 .aba_superior a {
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
@@ -33,7 +33,7 @@ body, html {
 .menu_lateral {
     height: 90%;
     width: 20%;
-    background-color: #656868;
+    background-color: gray;
     /* deixa o menu lateral alinhado à esquerda da pág */
     float: left;
     position: fixed;
@@ -72,11 +72,11 @@ body, html {
     /* margem interna: separa as bordas */
     padding-left: 4%;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .aba_inferior {
-    background-color: #656868;
+    background-color: gray;
     height: 5%;
     position: fixed;
     bottom: 0;
@@ -84,11 +84,12 @@ body, html {
     padding-left: 47.5%;
     padding-right: 47.5%;
     align-items: center;
+
 }
 
 .aba_inferior a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .aba_inferior li{
