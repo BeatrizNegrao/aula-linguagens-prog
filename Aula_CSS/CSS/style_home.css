@@ -66,3 +66,8 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+
+div img {
+    height: 650px;
+    
+}

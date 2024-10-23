@@ -1,0 +1,27 @@
+
+.box {
+    width: 100%;
+    display: flex;
+
+    /*flex-direction: eixo principal se moverá ao longo da ] para esquerda em row-reverse  */
+    flex-direction: row;
+
+    /* Para gerar uma querbra automática de linha use a propriedade: flex-wrap mn  .,  .*/
+    flex-wrap: wrap;
+
+    /* Justify-content: alinha na horizontal */
+    justify-content: center;
+
+    /* Aling-items: alinha na vertical */
+    align-items: center;
+}
+
+.box .car {
+    border: 1px solid black;
+    width: 170px;
+}
+
+.box .car img {
+    width: 50%;
+}
+

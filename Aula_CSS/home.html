@@ -1,30 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Aula_CSS/CSS/style_home.css">
     <link rel="shortcut icon" href="../Aula_CSS/imagem/favicon_perfume.png" type="image/x-icon">
-    <title>Aula 7 CSS fundamentals - Lojinha de perfumes</title>
+    <link rel="stylesheet" href="../Aula_CSS/bootstrap/css/bootstrap.min.css">
+    <title>Aula 7 - CSS fundamentals - Lojinha de perfumes</title>
 </head>
+
 <body>
     <header id="header">
         <a id="logo" href="./home.html"><img id="logo" src="../Aula_CSS/imagem/logo_lojinha.jpg" alt="Logo"></a>
         <nav id="nav">
-            <button aria-label="Abrir menu" id="btn-mobile" area-haspoup="true" area-controls="menu" area-expanded="false">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" area-controls="menu"
+                aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
             <!-- Em button estamos tratando a função do meu hamburger -->
-             <!-- Início opções menu: -->
-             <ul id="menu" role="menu">
+            <!-- Início opções menu: -->
+            <ul id="menu" role="menu">
                 <li><a class="linkMenu" href="./home.html">Home</a></li>
                 <li><a id="linkMenu" href="./home.html">Quem somos</a></li>
                 <li><a id="linkMenu" href="./home.html">Produtos</a></li>
                 <li><a id="linkMenu" href="./home.html">Contato</a></li>
-             </ul>
-             <!-- Fim opções de menu -->
+            </ul>
+            <!-- Fim opções de menu -->
         </nav>
     </header>
-    
+    <!--Início Carousel pagina home -->
+    <div id="CarouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="../Aula_CSS/imagem/perfume1.avif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="../Aula_CSS/imagem/perfume2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="../Aula_CSS/imagem/perfume3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="../Aula_CSS/imagem/perfume4.avif" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <!-- Início controle Carousel -->
+        <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <!-- Fim controle Carousel -->
 </body>
+<script type="text/javascript" src="../Aula_CSS/bootstrap/js/bootstrap.min.js"></script>
+
 </html>
