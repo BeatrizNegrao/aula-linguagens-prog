@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+#menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; /* Tamanho da fonte */
+    display: flex; /* Usa flexbox para alinhar o texto centralmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center;
+    justify-content: space-between;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #7df070; /* text-shadow: texto de sombra */
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0.8rem;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    margin-right: 3rem; /* Espaço entre o logo e o menu */
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 40px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-size: 18px; 
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 60px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(74, 113, 65);
+    box-shadow: 3px 3px 6px #b1b1b1;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 2rem;
+}
+
+#carouselExampleInterval {
+    width: 100vw; /* Garante que o carousel ocupe 100% da largura da viewport */
+    height: auto;
+    display: flex;
+    position: relative;
+   
+}
+
+.carousel-item img {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    max-height: 450px; /* Define uma altura máxima, ajustável */
+    object-fit: cover; /* Corta a imagem para cobrir o espaço, mantendo a proporção */
+}
+
+.col-md-6 img {
+    width: 640px;
+    height: 400px;
+    max-width: 1000px; /* Limita a largura máxima da imagem */
+    margin-top: 0;
+}
+
+.row {
+    display: flex; /* Adiciona Flexbox à linha */
+    align-items: stretch; /* Faz as colunas esticarem para a mesma altura */
+}
+
+h2, h3 {
+    color: #4a7141; /* Cor verde escura para os títulos */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+    color: rgb(67, 65, 65); 
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    padding: 2rem 0;
+}
+
+input[type="submit"] {
+    background-color:  #4a7141; /* Define a cor de fundo do botão como azul */
+    color: white; /* Texto branco */
+    padding: 10px; /* Adiciona espaçamento interno ao botão */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Define cantos arredondados no botão */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    margin-top: 10px; /* Adiciona espaço acima do botão */
+    width: 150px;  /* Define a largura do botão */
+    margin-left: 65%;
+}
+
+input[type="submit"]:hover {
+    background-color:  #f9f9f9; /* Define a cor de fundo do botão como azul */
+}
+
+

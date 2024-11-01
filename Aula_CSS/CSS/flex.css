@@ -6,7 +6,7 @@
     /*flex-direction: eixo principal se moverá ao longo da ] para esquerda em row-reverse  */
     flex-direction: row;
 
-    /* Para gerar uma querbra automática de linha use a propriedade: flex-wrap mn  .,  .*/
+    /* Para gerar uma querbra automática de linha use a propriedade: flex-wrap*/
     flex-wrap: wrap;
 
     /* Justify-content: alinha na horizontal */

@@ -1,0 +1,85 @@
+body {
+    background-color: #f9f9f9; /* Define uma cor de fundo suave para a página */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão da página */
+}
+
+h1 {
+    font-weight: normal;
+    color:  #4a7141; /* Define a cor preta para o título */
+}
+
+h3 {
+    font-weight: normal;
+    color: black; /* Define a cor preta para subtítulos */
+}
+
+p {
+    color: black; /* Define a cor preta para as descrições de texto */
+    margin-bottom: 1rem; /* Espaçamento inferior de 1 rem (espécie de unidade responsiva) */
+    margin-top: 5%; /* Espaçamento superior de 5% */
+    margin-left: 5%; /* Espaçamento à esquerda de 5% */
+}
+
+.btn-success {
+    margin-top: 1rem; /* Espaçamento superior de 1 rem para o botão */
+    transition: background-color 0.3s; /* Anima a transição de cor de fundo com duração de 0,3 segundos */
+    background-color: #4a7141; /* Define uma cor verde escura como fundo do botão */
+    border: none; /* Remove a borda do botão */
+    margin-top: 0; /* Remove o espaçamento superior */
+    margin-left: 5%; /* Adiciona espaçamento à esquerda de 5% */
+    padding: 0.5rem 1.5rem; /* Define um preenchimento interno de 0,5 rem em cima/baixo e 1,5 rem nas laterais */
+}
+
+.btn-success:hover {
+    background-color: #f9f9f9; /* Altera a cor do botão ao passar o mouse */
+}
+
+img {
+    width: 300px; /* Define a largura fixa da imagem */
+    height: 200px; /* Define a altura fixa da imagem */
+    border-radius: 2%; /* Adiciona cantos levemente arredondados */
+}
+
+.mb-4 {
+    margin-right: 20%; /* Define uma margem à direita de 20% */
+    margin: 0; /* Remove todas as outras margens */
+}
+
+.card {
+    border: none; /* Remove a borda padrão do card */
+    border-radius: 8px; /* Define bordas arredondadas com raio de 8px */
+    overflow: hidden; /* Garante que o conteúdo do card seja recortado nas bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Define uma sombra leve para dar destaque ao card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza as transições de elevação e sombra */
+    margin-top: 15%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para criar um efeito de profundidade */
+    transform: translateY(-5px); /* Move o card 5 pixels para cima ao passar o mouse */
+}
+
+.card-img-top {
+    height: 250px; /* Define uma altura fixa de 250px para a imagem no topo do card */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço do card sem distorcer */
+}
+
+.card-title {
+    color: #4a7141; /* Define a cor verde escura para o título do card */
+    font-size: 1.25rem; /* Define o tamanho da fonte para o título */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+.card-text {
+    color:  rgb(67, 65, 65); /* Define a cor verde escura para o texto do card */
+    font-size: 15px; /* Define o tamanho da fonte do texto */
+    margin: 0.5rem 0; /* Define um espaço vertical de 0,5 rem acima e abaixo do texto */
+}
+
+.container {
+    max-width: 1200px; /* Limita a largura da área do container a 1200px */
+}
+
+.text-center {
+    text-align: center; /* Centraliza o texto */
+}

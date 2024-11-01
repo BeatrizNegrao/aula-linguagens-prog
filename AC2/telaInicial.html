@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../AC2/imagens/logoTipo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../AC2/style_telaInicial.css">
+    <link rel="stylesheet" href="../AC2/bootstrap/css/bootstrap.min.css">
+    <title>AC2 - Tela inicial</title>
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="./telaInicial.html"><img id="logo" src="../AC2/imagens/logoTipo.png" alt="Logo"></a>
+        <nav id="nav">
+            <!-- Início opções menu: -->
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="./telaInicial.html">Home</a></li>
+                <li><a id="linkMenu" href="./telaInicial.html">Cursos</a></li>
+                <li><a id="linkMenu" href="./telaInicial.html">Contato</a></li>
+            </ul>
+            <!-- Fim opções de menu -->
+            <form id="form" action="#" method="post">
+                <label><input type="text" id="search" name="search" placeholder="Search"></label>
+            </form>
+        </nav>
+    </header>
+
+    <!--Início Carousel pagina -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="../AC2/imagens/imagem2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../AC2/imagens/imagem3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../AC2/imagens/imagem4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../AC2/imagens/imagem5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../AC2/imagens/imagem7.jpg" class="d-block w-100" alt="...">
+            </div>
+            
+        </div>
+        <!-- Início controle Carousel -->
+        <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <!-- Fim controle Carousel -->
+
+    <!-- Conteúdo Sobre Cursos -->
+    <section class="container">
+        <div class="row align-items-center">
+            <!-- Coluna de Texto para a Primeira Imagem -->
+            <div class="col-md-6">
+                <h2>Aprenda a arte da culinária japonesa com nossos cursos exclusivos!</h2>
+                <p>Seja bem-vindo ao nosso espaço dedicado ao ensino da autêntica culinária japonesa! Nossa missão é
+                    proporcionar
+                    uma experiência única e envolvente, para que você aprenda a preparar pratos icônicos com técnicas
+                    tradicionais e modernos toques de apresentação.
+                </p>
+                <h3>Por que aprender culinária japonesa?</h3>
+                <p>A cozinha japonesa é conhecida por sua simplicidade e atenção aos detalhes, valorizando sabores
+                    naturais e a estética dos pratos.
+                    Além de nutritiva e saudável, a culinária japonesa é uma experiência cultural rica que une tradição,
+                    inovação e respeito aos ingredientes.
+                    Com nossa ajuda, você aprenderá a preparar sushi, sashimi, ramen, tempurá, entre outros pratos
+                    deliciosos, que impressionam e agradam qualquer paladar!
+                </p>
+                <!-- Mais conteúdo... -->
+            </div>
+            <!-- Primeira Imagem -->
+            <div class="col-md-6">
+                <img src="../AC2/imagens/culinaria.jpg" class="img-fluid rounded shadow"
+                    alt="Imagem de comida japonesa">
+            </div>
+        </div>
+
+        <!-- Segunda Linha com Imagem e Texto -->
+        <div class="row align-items-center mt-4">
+            <!-- Segunda Imagem -->
+            <div class="col-md-6">
+                <img src="../AC2/imagens/culinaria2.avif" class="img-fluid rounded shadow"
+                    alt="Imagem de comida japonesa">
+            </div>
+            <!-- Coluna de Texto à Direita da Segunda Imagem -->
+            <div class="col-md-6">
+                <h3>Conheça as técnicas avançadas da culinária japonesa!</h3>
+                <p>Em nossos cursos avançados, você descobrirá segredos e técnicas utilizadas por chefs renomados para
+                    preparar pratos sofisticados. Explore a criação de molhos únicos, cortes precisos e a apresentação elegante que fazem da culinária japonesa uma arte.
+                    <br>
+                    Além disso, você terá a oportunidade de participar de aulas práticas, onde poderá aplicar o que
+                    aprendeu em situações reais, promovendo um aprendizado imersivo e colaborativo.
+                    Ao final do curso, você estará preparado para criar menus completos, desde entradas até sobremesas,
+                    que trarão um toque japonês às suas refeições.
+                </p>
+                <h3>Matricule-se hoje!</h3>
+                <p>Transforme sua paixão por comida japonesa em uma habilidade prática e única. Conheça nossa
+                    programação e escolha o curso que melhor se adapta ao seu nível e objetivos.
+                    Estamos prontos para ajudar você a explorar a magia dos sabores japoneses e levar a cultura de um
+                    país fascinante para sua cozinha.
+                </p>
+            </div>
+            <forma action="#" method="post">
+                <input type="submit" name="action" value="Saiba Mais" formnovalidate>
+            </form>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src="../AC2/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
