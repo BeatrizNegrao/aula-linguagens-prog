@@ -53,7 +53,7 @@ div {
     width: 250px; /* Define a largura da caixa de formulário */
     height: auto;
     padding: 50px; /* Adiciona espaçamento interno */
-    background-color: rgb(74, 113, 65); /* Cor de fundo da caixa */
+    background-color: rgba(74, 113, 65, 0.73); /* Cor de fundo da caixa */
     border-radius: 5px; /* Define cantos arredondados */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-top: 200px; /* Adiciona espaço acima da caixa */
