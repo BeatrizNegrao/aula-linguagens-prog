@@ -1,6 +1,7 @@
+//Aula JavaScript > DOM e Functions
+
 //Manipulação dos objetos DOM (Document Object Model)
 //Representação de dados dos objetos que compõem uma estrutura e o conteúdo de um documento web 
-
 //Essencial para manipular e interagir com elementos de uma página
 // Document.querySelector()
 //Exemplo: 
@@ -37,5 +38,6 @@ setTimeout(() => {
 //Já o consele.log: registra a informação no console do navegador, ficando restrita ao conhecimento do desenvolvedor  
 //Uso principal: atrasar execuções ou criar temporizadores 
 
-//Aula JavaScript > DOM e Functions
+
+
 
